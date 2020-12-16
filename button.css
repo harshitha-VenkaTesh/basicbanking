@@ -1,0 +1,26 @@
+
+.button {
+  width: 250px;
+  height:50px;
+  display: inline-block;
+  background: LightGray;
+  font-weight:bold;
+  padding: 0px 50px;
+  color: black;
+  font-family: "Serif", sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 48px;
+  border: 2px solid black;
+  border-radius: 30px;
+  outline: LightGray;
+  box-shadow: LightGray;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+@keyframes glowing {
+    0% { background-position: 0 0; }
+    50% { background-position: 400% 0; }
+    100% { background-position: 0 0; }
+}
